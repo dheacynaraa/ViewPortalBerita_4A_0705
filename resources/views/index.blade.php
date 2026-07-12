@@ -62,6 +62,7 @@
 
                     <small class="text-muted">
                         {{ $post->publisher }}
+                        |
                         {{ \Carbon\Carbon::parse($post->date)->format('d M Y') }}
                     </small>
 

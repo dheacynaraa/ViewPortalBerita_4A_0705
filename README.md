@@ -1,3 +1,3 @@
 <h2>Tampilan Setelah Login atau Register<h2>
 
-![ss-web](https://github.com/user-attachments/assets/3aa48000-17b1-4d4c-b8ee-b7d024869ab6)
+![ss-web](https://github.com/user-attachments/assets/fe8c8634-d4ec-44d0-8625-aa29f296f362)
