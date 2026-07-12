@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master-portal')
 
 @section('title', 'Portal - Kabar Burung')
 
