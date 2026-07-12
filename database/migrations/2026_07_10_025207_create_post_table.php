@@ -15,10 +15,14 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
+            $table->string('image');
+            $table->string('publisher');
+            $table->date('date');
             $table->enum('published', ['yes', 'no']);
             $table->timestamps();
         });
     }
+    
     /**
      * Reverse the migrations.
      */
