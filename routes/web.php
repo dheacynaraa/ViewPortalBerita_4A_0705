@@ -21,7 +21,5 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 // Halaman yang butuh login (protected)
 Route::middleware('auth')->group(function () {
-Route::get('/home', function () {
-return view('home');
-});
+    Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
 });
